@@ -1,4 +1,14 @@
-Algorithms
+Data Structures and Algorithms
 ==========
+@(Tags of Algorithm)[Data Structure|Sort|Search|Permutation|Combination]
 
-All classic, beautiful, and amazing algorithms in computer science
+All **classical**, **beautiful**, and **amazing** algorithms of computer science
+
+----------
+
+###Sort
+- **Bubble_sort** - exchanging values.
+
+### Permutations and Combinations
+- **full_permutation** - recursive method.
+- **combination** - recursive method.
