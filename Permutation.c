@@ -1,8 +1,5 @@
-// Permutation.cpp : Defines the entry point for the console application.
-//
 
-#include "stdafx.h"
-#include <windows.h>
+//#include <windows.h>
 #include <stdio.h>
 
 void swap(char* a, char* b) 
@@ -14,7 +11,7 @@ void swap(char* a, char* b)
 }
 void swap_xor(char* a, char* b) 
 {   
-	/*	Tip£º	If "a" is equal to "b" ("a" and "b" are all pointer variables)£¬we can't use XOR to exchange "*a" and "*b",
+	/*	TipÂ£Âº	If "a" is equal to "b" ("a" and "b" are all pointer variables)Â£Â¬we can't use XOR to exchange "*a" and "*b",
 	 *			or the final results of "*a" and "*b"  are both '\0'. This is the biggest difference between these two 
 	 *			swapping methods above. What a pity that XOR method has such a hidden bug. However XOR method runs very
 	 *			much faster.      
@@ -64,7 +61,7 @@ int main(int argc, char* argv[])
 	/*	getchar() or system("pause") is for showing computation results for a long time, or the console will flash away in no time.
 	 *	In Visual Studio, you can use system("pause") including <windows.h>, else, you can use getchar().
 	 */
-	system("pause");
+	//system("pause");
 	//getchar();
     return 0;    
 }
