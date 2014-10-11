@@ -37,19 +37,19 @@ void permutation(char* pStr, char* pBegin)
 	{
 		return;
 	}
-    	if(*pBegin == '\0')
-    	{
+	if(*pBegin == '\0')
+	{
 		//Full Permutation result
-        	printf("%3d: %s\n", ++cnt, pStr);
-    	}
+		printf("%3d: %s\n", ++cnt, pStr);
+	}
 	else
-    	{       
-        for(pCh = pBegin; *pCh != '\0'; pCh++)
-        {
-		swap_xor(pCh, pBegin);
-            	permutation(pStr, pBegin+1);
-		swap_xor(pCh, pBegin);
-        }
+	{       
+    	for(pCh = pBegin; *pCh != '\0'; pCh++)
+	    {
+			swap_xor(pCh, pBegin);
+	        permutation(pStr, pBegin+1);
+			swap_xor(pCh, pBegin);
+	    }
     }
 }
 int main(int argc, char* argv[])
