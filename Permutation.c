@@ -3,17 +3,17 @@
 
 void swap(char* a, char* b) 
 {     
-    char m;     
-    m = *a;     
-    *a = *b;     
-    *b = m; 
+	char m;     
+	m = *a;     
+	*a = *b;     
+	*b = m; 
 }
 void swap_xor(char* a, char* b) 
 {   
-	/*	Tip: If "a" is equal to "b" ("a" and "b" are all pointer variables)£¬we can't use XOR to exchange "*a" and "*b",
-	 *			or the final results of "*a" and "*b"  are both '\0'. This is the biggest difference between these two 
-	 *			swapping methods above. What a pity that XOR method has such a hidden bug. However XOR method runs very
-	 *			much faster.      
+	/* Tip: If "a" is equal to "b" ("a" and "b" are all pointer variables)£¬we can't use XOR to exchange "*a" and "*b",
+	 * or the final results of "*a" and "*b"  are both '\0'. This is the biggest difference between these two 
+	 * swapping methods above. What a pity that XOR method has such a hidden bug. However XOR method runs very
+	 * much faster.      
 	 */
 	if(a == b)
 	{
@@ -22,10 +22,10 @@ void swap_xor(char* a, char* b)
 	*a ^= (*b);
 	*b ^= (*a);
 	*a ^= (*b);
-	/*	Full version for comprehension:
-	 *	(*a) = (*a) ^ (*b);
-	 *	(*b) = (*a) ^ (*b);
-	 *	(*a) = (*a) ^ (*b);
+	/* Full version for comprehension:
+	 * (*a) = (*a) ^ (*b);
+	 * (*b) = (*a) ^ (*b);
+	 * (*a) = (*a) ^ (*b);
 	 */
 }
 void permutation(char* pStr, char* pBegin)
@@ -33,35 +33,35 @@ void permutation(char* pStr, char* pBegin)
 	//count of Full Permutation results
 	static int cnt = 0;
 	char *pCh;
-    if(!pStr || !pBegin)
+	if(!pStr || !pBegin)
 	{
 		return;
 	}
-    if(*pBegin == '\0')
-    {
+    	if(*pBegin == '\0')
+    	{
 		//Full Permutation result
-        printf("%3d: %s\n", ++cnt, pStr);
-    }
-    else
-    {       
+        	printf("%3d: %s\n", ++cnt, pStr);
+    	}
+	else
+    	{       
         for(pCh = pBegin; *pCh != '\0'; pCh++)
         {
-			swap_xor(pCh, pBegin);
-            permutation(pStr, pBegin+1);
-			swap_xor(pCh, pBegin);
+		swap_xor(pCh, pBegin);
+            	permutation(pStr, pBegin+1);
+		swap_xor(pCh, pBegin);
         }
     }
 }
 int main(int argc, char* argv[])
 {
-    char str[10];
-    scanf("%s", str);
-    permutation(str, str);
-	/*	getchar() or system("pause") is for showing computation results for a long time, or the console will flash away in no time.
-	 *	In Visual Studio, you can use system("pause") including <windows.h>, else, you can use getchar().
+	char str[10];
+	scanf("%s", str);
+	permutation(str, str);
+	/* getchar() or system("pause") is for showing computation results for a long time, or the console will flash away in no time.
+	 * In Visual Studio, you can use system("pause") including <windows.h>, else, you can use getchar().
 	 */
 	//system("pause");
 	//getchar();
-    return 0;    
+	return 0;    
 }
 
