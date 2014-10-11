@@ -44,13 +44,13 @@ void permutation(char* pStr, char* pBegin)
 	}
 	else
 	{       
-    	for(pCh = pBegin; *pCh != '\0'; pCh++)
-	    {
+	    	for(pCh = pBegin; *pCh != '\0'; pCh++)
+		{
 			swap_xor(pCh, pBegin);
-	        permutation(pStr, pBegin+1);
+			permutation(pStr, pBegin+1);
 			swap_xor(pCh, pBegin);
-	    }
-    }
+		}
+	}
 }
 int main(int argc, char* argv[])
 {
