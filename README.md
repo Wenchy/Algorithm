@@ -23,7 +23,7 @@ All **classical**, **beautiful**, and **amazing** algorithms of computer science
 | Insertion sort    | n         |<img src="http://chart.googleapis.com/chart?cht=tx&chl=\\n^2">|<img src="http://chart.googleapis.com/chart?cht=tx&chl=\\n^2">| 1           | Yes      | 
 | Merge sort        | nlogn     | nlogn    | nlogn         | `worst`   n | Yes      | 
 | Inplace merge sort| --        | --       |<img src="http://chart.googleapis.com/chart?cht=tx&chl=\\n^2">| 1           | Yes      |
-| Quick sort        | nlogn     | nlogn    |<img src="http://chart.googleapis.com/chart?cht=tx&chl=\\n^2">| `average` logn <br> `worst` n | Yes|
+| Quick sort        | nlogn     | nlogn    |<img src="http://chart.googleapis.com/chart?cht=tx&chl=\\n^2">| `average` logn <br> `worst` n | `typical` No|
 | Heap sort         | nlogn     | nlogn    | nlogn         | 1           | No       |
 
 ### Permutations and Combinations
