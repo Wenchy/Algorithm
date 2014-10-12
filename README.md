@@ -15,7 +15,7 @@ All **classical**, **beautiful**, and **amazing** algorithms of computer science
 - **Quick sort** - Quick.
 - **Heap sort** - Heap.
 
-#### Sort Algorithms
+#### Analysis of sort algorithms
 | Name              | Best      | Average  | Worst         | Memory      | Stable   |   
 |:-----------------:|:---------:|:--------:|:-------------:|:-----------:|:--------:|
 | Bubble sort       | n         |<img src="http://chart.googleapis.com/chart?cht=tx&chl=\\n^2">|<img src="http://chart.googleapis.com/chart?cht=tx&chl=\\n^2">| 1           | Yes      |
