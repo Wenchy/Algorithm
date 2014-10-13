@@ -1,10 +1,8 @@
 Data Structures and Algorithms
 ==========
-> `Data Structure` `Sort` `Search` `Permutation` `Combination`
+`Data Structure` `Sort` `Search` `Permutation` `Combination`
 
-All **classical**, **beautiful**, and **amazing** algorithms of computer science
-
-----------
+> All **classical**, **beautiful**, and **amazing** algorithms of computer science
 
 ###Sort
 - **Bubble sort** - exchanging values.
@@ -30,5 +28,9 @@ All **classical**, **beautiful**, and **amazing** algorithms of computer science
 - **full_permutation** - recursive method.
 - **combination** - recursive method.
 
+----------
 
-
+数论
+====
+- Euclidean algorithm [wiki](http://en.wikipedia.org/wiki/Euclidean_algorithm) - 欧几里得算法（辗转相除法）An algorithm for the Greatest Common Divisor (GCD).
+- Extended Euclidean algorithm [wiki](http://en.wikipedia.org/wiki/Extended_Euclidean_algorithm) - 扩展欧几里得算法 [维基](http://zh.wikipedia.org/wiki/%E6%89%A9%E5%B1%95%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95)
