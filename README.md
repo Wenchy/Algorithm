@@ -34,3 +34,13 @@ Data Structures and Algorithms
 ====
 - Euclidean algorithm [wiki](http://en.wikipedia.org/wiki/Euclidean_algorithm) - 欧几里得算法（辗转相除法）An algorithm for the Greatest Common Divisor (GCD).
 - Extended Euclidean algorithm [wiki](http://en.wikipedia.org/wiki/Extended_Euclidean_algorithm) - 扩展欧几里得算法 [维基](http://zh.wikipedia.org/wiki/%E6%89%A9%E5%B1%95%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95)
+
+字符串处理
+==========
+- Edit Distance - 字符串编辑距离 [csdn](http://blog.csdn.net/huaweidong2011/article/details/7727482) [Ref](http://www.csse.monash.edu.au/~lloyd/tildeAlgDS/Dynamic/Edit/)
+
+Others
+======
+- 线段相交 - 参考算法导论
+- 八皇后问题
+
