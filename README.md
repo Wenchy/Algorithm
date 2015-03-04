@@ -38,7 +38,8 @@ Data Structures and Algorithms
 字符串处理
 ==========
 - Edit Distance - 字符串编辑距离 [csdn](http://blog.csdn.net/huaweidong2011/article/details/7727482) [Ref](http://www.csse.monash.edu.au/~lloyd/tildeAlgDS/Dynamic/Edit/)
-- atof - ascii to floating point numbers
+- atof - ascii to floating point number
+
 Others
 ======
 - 线段相交 - 参考算法导论
