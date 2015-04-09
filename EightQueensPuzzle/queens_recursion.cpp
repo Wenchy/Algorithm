@@ -1,5 +1,5 @@
 /**
- * Controller for Auth, 用于管理员登录认证
+ * 八皇后问题, recursion solver
  * @author Charles Wenchy <wenchy.zwz@gmail.com>
  * @version 1.0.0
  * @copyright Wenzhou Zhu
