@@ -3,7 +3,7 @@
  * @author Charles Wenchy <wenchy.zwz@gmail.com>
  * @version 1.0.0
  * @copyright Wenzhou Zhu
- * @license GPL3.0
+ * @license GPL2.0
  * @since 2015-4-9
  */
 #include <iostream>
@@ -11,10 +11,10 @@
 using namespace std;
 #define NQUEEN 8 // EightQueensPuzzle.
 int solutionCount = 0; // total results
-int queens[NQUEEN + 1]; // NQUEEN+1 elements for easy process, default initialized to integer 0
+int queens[NQUEEN + 1] = {0}; // NQUEEN+1 elements for easy process, default initialized to integer 0
 
 bool judge(int row, int col){
-	// Note: just compare before colum "col"
+	// Note: just compare before column "col", because we don't clear value after column "col"
 	for (int i = 1; i < col; i++)
 	{
 		int qrow = queens[i];
@@ -48,6 +48,7 @@ void print_queens()
 	cout << endl;
 }
 void backtrack(int col){
+	// We have processed all the columns if col > NQUEEN
 	if (col > NQUEEN){
 		solutionCount++; // Got a result, add one to solutionCount 
 		print_queens(); //print the chessboard state of this puzzle's result
@@ -67,3 +68,4 @@ int main(int argc, char* argv[])
 	backtrack(1);
 	cout << "Total Solution: " << solutionCount << endl;
 	return 0;
+}
