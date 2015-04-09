@@ -44,5 +44,6 @@ Others
 ======
 - 线段相交 - 参考算法导论
 - 八皇后问题
+- 数制转换 - Decimal to BinHexOct
 - Bitmap - 位图
 
